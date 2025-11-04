@@ -20,7 +20,17 @@ class Program
         job2._endYear = 2025;
 
 
-        Console.WriteLine(job1._company);
-        Console.WriteLine(job2._company);
+
+        Resume Resume = new Resume();
+        Resume._name = "Mike";
+
+        Resume._jobs = new List<Job>();
+        Resume._jobs.Add(job1);
+        Resume._jobs.Add(job2);
+
+        Resume.Display();
+
+
+        
     }
 }
