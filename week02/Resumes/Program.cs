@@ -31,6 +31,6 @@ class Program
         Resume.Display();
 
 
-        
+
     }
 }
